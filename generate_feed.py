@@ -190,7 +190,7 @@ def fetch_api_latest(endpoint: str, data_key: str, source: str, show: Show) -> l
         if attempt < 2:
             time.sleep(1)
     if not best:
-        raise RuntimeError(f"API nije vratio najnovije stavke: {endpoint}")
+        return []
     return [item for record in best if (item := episode_from_api(record, source, show))]
 
 
