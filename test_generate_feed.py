@@ -28,6 +28,7 @@ class FeedTests(unittest.TestCase):
         self.assertIsNotNone(item)
         self.assertEqual(item.findtext("guid"), "urn:krik:audio:42")
         self.assertEqual(item.find("enclosure").get("length"), "123")
+        self.assertEqual(item.findtext("description"), "Opis")
 
 
 if __name__ == "__main__":
