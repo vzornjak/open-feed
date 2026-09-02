@@ -1,0 +1,38 @@
+name: Osvježi KRIK RSS
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: krik-rss-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testovi
+        run: python -m unittest -v
+      - name: Izradi RSS
+        run: python generate_feed.py
+      - name: Spremi promjene
+        run: |
+          if git diff --quiet -- krik.xml data/audio_lengths.json; then
+            echo "Nema novih emisija."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add krik.xml data/audio_lengths.json
+          git commit -m "Automatski osvježi KRIK RSS"
+          git push
