@@ -22,7 +22,7 @@
       <link>https://radio.hrt.hr/slusaonica/baltazar?epizoda=202606280730</link>
       <guid isPermaLink="false">urn:open-feed:baltazar:audio:1278380</guid>
       <pubDate>Sun, 28 Jun 2026 07:30:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/c0/66/20260628-baltazar-10648623-20260104163023.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/c0/66/20260628-baltazar-10648623-20260104163023.mp3" length="3536680" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/44/0c/baltazar-20211206121946.webp" />
     </item>
     <item>
@@ -31,7 +31,7 @@
       <link>https://radio.hrt.hr/slusaonica/baltazar?epizoda=202606210730</link>
       <guid isPermaLink="false">urn:open-feed:baltazar:audio:1278381</guid>
       <pubDate>Sun, 21 Jun 2026 07:30:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/2e/fd/20260621-baltazar-10648622-20260104163023.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/2e/fd/20260621-baltazar-10648622-20260104163023.mp3" length="3180486" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/44/0c/baltazar-20211206121946.webp" />
     </item>
     <item>
@@ -40,7 +40,7 @@
       <link>https://radio.hrt.hr/slusaonica/baltazar?epizoda=202606140730</link>
       <guid isPermaLink="false">urn:open-feed:baltazar:audio:1278382</guid>
       <pubDate>Sun, 14 Jun 2026 07:30:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/51/24/20260614-baltazar-10648621-20260104163023.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/51/24/20260614-baltazar-10648621-20260104163023.mp3" length="2923200" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/44/0c/baltazar-20211206121946.webp" />
     </item>
     <item>
@@ -49,7 +49,7 @@
       <link>https://radio.hrt.hr/slusaonica/baltazar?epizoda=202606070730</link>
       <guid isPermaLink="false">urn:open-feed:baltazar:audio:1278383</guid>
       <pubDate>Sun, 07 Jun 2026 07:30:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/fe/f1/20260607-baltazar-10648617-20260104163023.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/fe/f1/20260607-baltazar-10648617-20260104163023.mp3" length="2625537" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/44/0c/baltazar-20211206121946.webp" />
     </item>
   </channel>
