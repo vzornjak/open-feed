@@ -162,6 +162,25 @@ def fetch_api_collection(endpoint: str, data_key: str, source: str) -> list[Epis
     raise RuntimeError(f"API nije završio nakon {MAX_PAGES} stranica: {endpoint}")
 
 
+def fetch_api_latest(endpoint: str, data_key: str, source: str) -> list[Episode]:
+    """Fetch only the newest page, retrying rare partial responses."""
+    query = urllib.parse.urlencode({"slug": SLUG, "offset": 0})
+    url = f"https://radio.hrt.hr/api/{endpoint}?{query}"
+    best: list[dict] = []
+    for attempt in range(3):
+        payload = request_json(url)
+        records = (payload.get("data") or {}).get(data_key) or []
+        if len(records) > len(best):
+            best = records
+        if len(best) >= PAGE_SIZE:
+            break
+        if attempt < 2:
+            time.sleep(1)
+    if not best:
+        raise RuntimeError(f"API nije vratio najnovije stavke: {endpoint}")
+    return [item for record in best if (item := episode_from_api(record, source))]
+
+
 def fetch_official_feed() -> list[Episode]:
     root = ET.fromstring(request_bytes(OFFICIAL_FEED_URL))
     result: list[Episode] = []
@@ -185,9 +204,38 @@ def fetch_official_feed() -> list[Episode]:
     return result
 
 
+def load_existing_feed(path: Path) -> list[Episode]:
+    if not path.exists():
+        return []
+    root = ET.parse(path).getroot()
+    result: list[Episode] = []
+    for item in root.findall("./channel/item"):
+        enclosure = item.find("enclosure")
+        pub_date = item.findtext("pubDate")
+        if enclosure is None or not enclosure.get("url") or not pub_date:
+            continue
+        guid = item.findtext("guid") or ""
+        match = re.fullmatch(r"urn:krik:audio:(.+)", guid)
+        image = item.find(f"{{{NS_ITUNES}}}image")
+        result.append(
+            Episode(
+                title=(item.findtext("title") or "KRIK").strip(),
+                description=(item.findtext("description") or "").strip(),
+                audio_url=enclosure.get("url", ""),
+                audio_id=match.group(1) if match else None,
+                published=email.utils.parsedate_to_datetime(pub_date).astimezone(dt.timezone.utc),
+                length=int(enclosure.get("length") or 0),
+                page_url=item.findtext("link") or SHOW_URL,
+                image_url=image.get("href") if image is not None and image.get("href") else IMAGE_URL,
+                source="POSTOJEĆI RSS",
+            )
+        )
+    return result
+
+
 def merge_episodes(groups: Iterable[Iterable[Episode]]) -> list[Episode]:
     merged: dict[str, Episode] = {}
-    priority = {"SLUŽBENI RSS": 1, "PODCAST": 2, "EMISIJE": 3}
+    priority = {"POSTOJEĆI RSS": 0, "SLUŽBENI RSS": 1, "PODCAST": 2, "EMISIJE": 3}
     for group in groups:
         for episode in group:
             current = merged.get(episode.key)
@@ -278,14 +326,23 @@ def main() -> int:
     parser.add_argument("--skip-lengths", action="store_true", help="Ne provjerava veličinu novih MP3 datoteka")
     args = parser.parse_args()
 
-    official = fetch_official_feed()
-    emissions = fetch_api_collection("getEpisodes", "lastAvailableEpisodes", "EMISIJE")
-    podcasts = fetch_api_collection("getPodcasts", "lastAvailablePodcasts", "PODCAST")
-    episodes = merge_episodes([official, podcasts, emissions])
+    existing = load_existing_feed(args.output)
+    if existing:
+        mode = "NOVO"
+        official: list[Episode] = []
+        emissions = fetch_api_latest("getEpisodes", "lastAvailableEpisodes", "EMISIJE")
+        podcasts = fetch_api_latest("getPodcasts", "lastAvailablePodcasts", "PODCAST")
+        episodes = merge_episodes([existing, podcasts, emissions])
+    else:
+        mode = "PUNA_ARHIVA"
+        official = fetch_official_feed()
+        emissions = fetch_api_collection("getEpisodes", "lastAvailableEpisodes", "EMISIJE")
+        podcasts = fetch_api_collection("getPodcasts", "lastAvailablePodcasts", "PODCAST")
+        episodes = merge_episodes([official, podcasts, emissions])
     if not args.skip_lengths:
         fill_audio_lengths(episodes, args.cache)
     args.output.write_bytes(build_rss(episodes, args.self_url))
-    print(f"EMISIJE={len(emissions)} PODCAST_API={len(podcasts)} SLUŽBENI_RSS={len(official)} JEDINSTVENO={len(episodes)}")
+    print(f"NAČIN={mode} EMISIJE={len(emissions)} PODCAST={len(podcasts)} JEDINSTVENO={len(episodes)}")
     return 0
 
 
