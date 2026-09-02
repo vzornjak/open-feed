@@ -15,7 +15,16 @@
       <title>Dokumentarna radio drama</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/dokumentarna-radio-drama.xml</link>
     </image>
-    <lastBuildDate>Wed, 26 Aug 2026 16:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 16:00:00 GMT</lastBuildDate>
+    <item>
+      <title>LEON I KATA</title>
+      <description>Dokumentarna radio drama "Leon i Kata" prikazuje odnos između Leona (25) i Katice (44). Leon se stjecajem životnih neprilika našao na ulici te živi zahvaljujući socijalnoj pomoći i skupljajući boce po smeću. Katica ima dvoje djece iz prošlog braka te živi u teškim materijalnim neprilikama. Priča prati Leona i Katicu u trenucima kada govore o svojoj vezi kao i o razlozima njihovog razlaza. Leonova najveća želja je da pronađe stan i stalan smještaj kako više ne bi bio prisiljen spavati po napuštenim barakama. Također, Leon nastoji dokazati da može živjeti kao "normalan čovjek" kako bi ponovno stekao naklonost Katice i njezine djece sa kojima želi ponovno živjeti. Na 60. međunarodnom festivalu "PRIX ITALIA", jednom od dva najveća radijska festivala u svijetu koji je od 14. do 20. rujna 2008. održan u Cagliariu emisija Dramskog programa Hrvatskog radija osvojila je prvu nagradu: - u kategoriji dokumentarne radio-drame "LEON I KATA" autora NIKICE KLOBUČARA, te urednika LJUBE PAUZINA.</description>
+      <link>https://radio.hrt.hr/slusaonica/dokumentarna-radio-drama?epizoda=202609021600</link>
+      <guid isPermaLink="false">urn:open-feed:dokumentarna-radio-drama:audio:1373366</guid>
+      <pubDate>Wed, 02 Sep 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/d7/bf/20260902-dokumentarna-radio-drama-37692200-20260629102557.mp3" length="29146966" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/9f/15/image00071-20211204145356.webp" />
+    </item>
     <item>
       <title>BESKUĆNIK</title>
       <description>Dokumentarna radio drama Nikice Klobučara â€žBeskućnikâ€ś prati životnu priču Josipa Šegote, koji je objavio memoarsku knjigu â€žBeskućnikâ€ś, o vlastitom životu i snalaženju na zagrebačkim ulicama. Dokumentarna drama prati nastojanje čovjeka, koji je pao na â€ždnoâ€ś, da se ponovno uzdigne i vrati u normalnost svakodnevice.</description>
