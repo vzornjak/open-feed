@@ -1,0 +1,18 @@
+{
+  "shows": [
+    {
+      "slug": "krik-krimi-petak-na-prvom",
+      "title": "KRIK – Krimi petak na Prvom",
+      "output": "krik.xml",
+      "image_url": "https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp",
+      "legacy_guid_prefix": "urn:krik:audio",
+      "official_feed": true
+    },
+    {
+      "slug": "dokumentarna-radio-drama",
+      "title": "Dokumentarna radio drama",
+      "output": "dokumentarna-radio-drama.xml",
+      "official_feed": true
+    }
+  ]
+}

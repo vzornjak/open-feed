@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>krik-feed</title>
-    <link>https://raw.githubusercontent.com/vzornjak/krik-feed/main/krik.xml</link>
+    <title>KRIK – Krimi petak na Prvom</title>
+    <link>https://raw.githubusercontent.com/vzornjak/osobni-feed/main/krik.xml</link>
     <description>Neslužbeni osobni RSS.</description>
     <language>hr-hr</language>
-    <generator>krik-feed</generator>
-    <itunes:author>KRIK</itunes:author>
+    <generator>osobni-feed</generator>
+    <itunes:author>KRIK – Krimi petak na Prvom</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
-    <atom:link href="https://raw.githubusercontent.com/vzornjak/krik-feed/main/krik.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://raw.githubusercontent.com/vzornjak/osobni-feed/main/krik.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp</url>
-      <title>krik-feed</title>
-      <link>https://raw.githubusercontent.com/vzornjak/krik-feed/main/krik.xml</link>
+      <title>KRIK – Krimi petak na Prvom</title>
+      <link>https://raw.githubusercontent.com/vzornjak/osobni-feed/main/krik.xml</link>
     </image>
     <lastBuildDate>Fri, 28 Aug 2026 21:05:00 GMT</lastBuildDate>
     <item>
@@ -26,7 +26,7 @@ Urednica: Kristina Kegljen</description>
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202608282105</link>
       <guid isPermaLink="false">urn:krik:audio:1370856</guid>
       <pubDate>Fri, 28 Aug 2026 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/67/da/20260828-krik-37691855-20260624131101.mp3" length="33966853" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/67/da/20260828-krik-37691855-20260624131101.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -37,7 +37,7 @@ Igrali su:  Antonija Stanišić Šperanda, Daria Lorenzi Flatz, Rakan Rushaidat,
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202608212105</link>
       <guid isPermaLink="false">urn:krik:audio:1370831</guid>
       <pubDate>Fri, 21 Aug 2026 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/79/10/20260821-krik-37691866-20260624124101.mp3" length="27264584" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/79/10/20260821-krik-37691866-20260624124101.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -47,7 +47,7 @@ Redatelj: Petar Vujačić, glumili su: Tesa Litvan, Dora Dimić Rakar, Rok Juri�
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202608142105</link>
       <guid isPermaLink="false">urn:krik:audio:1370217</guid>
       <pubDate>Fri, 14 Aug 2026 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/e6/5b/20260814-krik-37691678-20260623120535.mp3" length="24555569" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/e6/5b/20260814-krik-37691678-20260623120535.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -58,7 +58,7 @@ Glume: Matija Čigir, Bernard Tomić, Hrvojka Begović i Jelena Miholjević.</de
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202608072105</link>
       <guid isPermaLink="false">urn:krik:audio:1370182</guid>
       <pubDate>Fri, 07 Aug 2026 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/a0/42/20260807-krik-37691478-20260623113037.mp3" length="31775540" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/a0/42/20260807-krik-37691478-20260623113037.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -142,7 +142,7 @@ Urednica: Kristina Kegljen</description>
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202606262105</link>
       <guid isPermaLink="false">urn:krik:audio:1352703</guid>
       <pubDate>Fri, 26 Jun 2026 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/d9/66/20260626-krik-37542427-20260521172559.mp3" length="27385089" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/d9/66/20260626-krik-37542427-20260521172559.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -152,7 +152,7 @@ Igraju: Iva Visković, Filip Križan, Katarina Bistrović Darvaš, Zoran Čubril
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202606192105</link>
       <guid isPermaLink="false">urn:krik:audio:1352704</guid>
       <pubDate>Fri, 19 Jun 2026 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/91/62/20260619-krik-37542407-20260521172600.mp3" length="27372569" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/91/62/20260619-krik-37542407-20260521172600.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -166,7 +166,7 @@ Urednica: Kristina Kegljen</description>
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202606122105</link>
       <guid isPermaLink="false">urn:krik:audio:1352694</guid>
       <pubDate>Fri, 12 Jun 2026 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/87/07/20260612-krik-37542363-20260521171559.mp3" length="29087496" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/87/07/20260612-krik-37542363-20260521171559.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -180,7 +180,7 @@ Urednica: Kristina Kegljen</description>
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202606052105</link>
       <guid isPermaLink="false">urn:krik:audio:1352695</guid>
       <pubDate>Fri, 05 Jun 2026 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/53/d9/20260605-krik-37542379-20260521171559.mp3" length="28651174" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/53/d9/20260605-krik-37542379-20260521171559.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -191,18 +191,18 @@ Režija: Silva Ćapin, igraju: Amanda Prenkaj, Franjo Dijak, Rada Mrkšić i Sam
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202605292105</link>
       <guid isPermaLink="false">urn:krik:audio:1333858</guid>
       <pubDate>Fri, 29 May 2026 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/ab/0f/20260529-krik-37442117-20260416105524.mp3" length="27676805" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/ab/0f/20260529-krik-37442117-20260416105524.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
       <title>Ines Hrain Ludošan: ŠVEDSKA GRENČICA</title>
       <description>Jedna je starica pronađena mrtva u parku, njezina sestra zadavljena je iste večeri u svome krevetu, a treća starica gurnuta s balkona u staračkome domu.  Imaju li ove tri smrti veze sa liječnikom koji ih je liječio ili sa njegovim poslovnim  suradnicima? Sve tri starice odlučile su prodati svoje stanove u zamjenu za doživotnim uzdržavanjem.  Jedan umirovljeni policajac i mladi inspektor uz svesrdnu pomoć znatiželjnih susjeda otkrit će nevjerojatnu istinu o ljudima koji žive jedni pored drugih u naizgled mirnom susjedstvu.
 Redateljica: Stephanie Jamnicky , dramatizacija: Ivana Gudelj, glume: Helena Buljan, Zoran Čubrilo,  Biserka Ipša, Franjo Jurčec, Frano Mašković, Romano Nikolić, Dora Vitez Polić, Tomislav Štriga, Mladen Vujčić, Ivan Vukelić.</description>
-      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?podcast=202605222158</link>
+      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202605222105</link>
       <guid isPermaLink="false">urn:krik:audio:1333823</guid>
       <pubDate>Fri, 22 May 2026 21:05:00 GMT</pubDate>
       <enclosure url="https://api.hrt.hr/media/fc/1a/20260522-krik-37442015-20260416102029.mp3" length="35570039" type="audio/mpeg" />
-      <itunes:image href="https://api.hrt.hr/media/77/47/krik-krimi-petak-na-prvom-1-20220802121750.webp" />
+      <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
       <title>Dina Vukelić: SLUČAJ S</title>
@@ -280,7 +280,7 @@ Režija: Mislav brečić, igraju: Božidar Boban, Marija Kohn, Mladen Vasary, Le
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202603202205</link>
       <guid isPermaLink="false">urn:krik:audio:1302324</guid>
       <pubDate>Fri, 20 Mar 2026 22:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/12/81/20260320-krik-37247526-20260218113513.mp3" length="32120779" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/12/81/20260320-krik-37247526-20260218113513.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -465,7 +465,7 @@ Urednica: Kristina Kegljen</description>
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202512052205</link>
       <guid isPermaLink="false">urn:krik:audio:1251505</guid>
       <pubDate>Fri, 05 Dec 2025 22:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/52/09/20251205-krik-36941774-20251114085531.mp3" length="27210748" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/52/09/20251205-krik-36941774-20251114085531.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -504,20 +504,6 @@ Urednica: Kristina Kegljen</description>
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
-      <title>Ivana Gudelj: PRIJE TIŠINE, 3.dio</title>
-      <description>Valerija Car nestala je prije tri godine, ali kad njenim roditeljima stigne anonimna uplata za nastavak potrage, oni se obraćaju bivšoj inspektorici Marti ne bi li im pomogla rasvijetliti sve okolnosti njezinog nestanka. Istraga Martu dovodi do raznih potencijalnih krivaca, ali svi tragovi završavaju u čvoru koji se ne da razriješiti. Sve dok je njezin dedukcijski um ne dovede do pravog krivca na kojeg nitko ne bi ni pomislio.
-Igraju: Iva Visković, Filip Križan, Katarina Bistrović Darvaš, Zoran Čubrilo, Domagoj Ivanković, Nikola Nedić, Milivoj Beader i Lucija Šerbedžija
-Redatelj: Filip Peruzović
-Tonmajstorica: Katarina Račić
-Glazbena urednica: Franka Meštrović
-Urednica: Kristina Kegljen</description>
-      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?podcast=202606192155</link>
-      <guid isPermaLink="false">urn:krik:audio:1237658</guid>
-      <pubDate>Fri, 24 Oct 2025 21:50:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/df/1a/20251107-krik-36803063-20251020093050.mp3" length="27372569" type="audio/mpeg" />
-      <itunes:image href="https://api.hrt.hr/media/77/47/krik-krimi-petak-na-prvom-1-20220802121750.webp" />
-    </item>
-    <item>
       <title>Ivana Gudelj: PRIJE TIŠINE, 2.dio</title>
       <description>Režija: Silva Ćapin
 Valerija Car nestala je prije tri godine, ali kad njenim roditeljima stigne anonimna uplata za nastavak potrage, oni se obraćaju bivšoj inspektorici Marti ne bi li im pomogla rasvijetliti sve okolnosti njezinog nestanka. Istraga Martu dovodi do raznih potencijalnih krivaca, ali svi tragovi završavaju u čvoru koji se ne da razriješiti. Sve dok je njezin dedukcijski um ne dovede do pravog krivca na kojeg nitko ne bi ni pomislio.
@@ -525,11 +511,25 @@ Igraju: Iva Visković, Filip Križan, Katarina Bistrović Darvaš, Domagoj Ivank
 Tonmajstorica: Katarina Račić
 Glazbena urednica: Franka Meštrović
 Urednica: Kristina Kegljen</description>
-      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?podcast=202606122150</link>
+      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202510312205</link>
       <guid isPermaLink="false">urn:krik:audio:1237656</guid>
       <pubDate>Fri, 24 Oct 2025 21:50:00 GMT</pubDate>
       <enclosure url="https://api.hrt.hr/media/74/85/20251031-krik-36799667-20251020092543.mp3" length="29071846" type="audio/mpeg" />
-      <itunes:image href="https://api.hrt.hr/media/77/47/krik-krimi-petak-na-prvom-1-20220802121750.webp" />
+      <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
+    </item>
+    <item>
+      <title>Ivana Gudelj: PRIJE TIŠINE 3.dio</title>
+      <description>Valerija Car nestala je prije tri godine, ali kad njenim roditeljima stigne anonimna uplata za nastavak potrage, oni se obraćaju bivšoj inspektorici Marti ne bi li im pomogla rasvijetliti sve okolnosti njezinog nestanka. Istraga Martu dovodi do raznih potencijalnih krivaca, ali svi tragovi završavaju u čvoru koji se ne da razriješiti. Sve dok je njezin dedukcijski um ne dovede do pravog krivca na kojeg nitko ne bi ni pomislio.
+Igraju: Iva Visković, Filip Križan, Katarina Bistrović Darvaš, Zoran Čubrilo, Domagoj Ivanković, Nikola Nedić, Milivoj Beader i Lucija Šerbedžija
+Redatelj: Filip Peruzović
+Tonmajstorica: Katarina Račić
+Glazbena urednica: Franka Meštrović
+Urednica: Kristina Kegljen</description>
+      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202511072205</link>
+      <guid isPermaLink="false">urn:krik:audio:1237658</guid>
+      <pubDate>Fri, 24 Oct 2025 21:50:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/df/1a/20251107-krik-36803063-20251020093050.mp3" length="27372569" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
       <title>Ivana Gudelj: PRIJE TIŠINE, 1.dio</title>
@@ -539,11 +539,11 @@ Igraju: Iva Visković, Filip Križan, Katarina Bistrović Darvaš, Zoran Čubril
 Tonmajstorica: Katarina Račić
 Glazbena urednica: Franka Meštrović
 Urednica: Kristina Kegljen</description>
-      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?podcast=202606052150</link>
+      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202510242105</link>
       <guid isPermaLink="false">urn:krik:audio:1237657</guid>
       <pubDate>Fri, 24 Oct 2025 21:05:00 GMT</pubDate>
       <enclosure url="https://api.hrt.hr/media/02/4e/20251024-krik-36799660-20251020092547.mp3" length="28651174" type="audio/mpeg" />
-      <itunes:image href="https://api.hrt.hr/media/77/47/krik-krimi-petak-na-prvom-1-20220802121750.webp" />
+      <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
       <title>UBOJICA</title>
@@ -551,7 +551,7 @@ Urednica: Kristina Kegljen</description>
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202510172105</link>
       <guid isPermaLink="false">urn:krik:audio:1228129</guid>
       <pubDate>Fri, 17 Oct 2025 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/f4/2c/20251017-krik-36803133-20251002074022.mp3" length="21431516" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/f4/2c/20251017-krik-36803133-20251002074022.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -613,7 +613,7 @@ Igraju: Domagoj Ivanković. Jakov Zovko, Darko Stazić, Vinko Kraljević, Sara S
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202509052105</link>
       <guid isPermaLink="false">urn:krik:audio:1187472</guid>
       <pubDate>Fri, 05 Sep 2025 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/0c/f2/20250905-krik-36524682-20250711112029.mp3" length="28482780" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/0c/f2/20250905-krik-36524682-20250711112029.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -625,7 +625,7 @@ Igraju: Domagoj Ivanković, Jakov Zovko, Darko Stazić, Vinko Kraljević, Sara S
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202508292105</link>
       <guid isPermaLink="false">urn:krik:audio:1187438</guid>
       <pubDate>Fri, 29 Aug 2025 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/e9/59/20250829-krik-36524677-20250711104030.mp3" length="32136742" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/e9/59/20250829-krik-36524677-20250711104030.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -642,7 +642,7 @@ Urednica: Kristina Kegljen</description>
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202508222105</link>
       <guid isPermaLink="false">urn:krik:audio:1187414</guid>
       <pubDate>Fri, 22 Aug 2025 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/ed/37/20250822-krik-36524673-20250711102029.mp3" length="25957183" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/ed/37/20250822-krik-36524673-20250711102029.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -659,7 +659,7 @@ Urednica: Kristina Kegljen</description>
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202508152105</link>
       <guid isPermaLink="false">urn:krik:audio:1187344</guid>
       <pubDate>Fri, 15 Aug 2025 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/d9/f1/20250815-krik-36524667-20250711085029.mp3" length="27307152" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/d9/f1/20250815-krik-36524667-20250711085029.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -677,7 +677,7 @@ Urednica: Kristina Kegljen</description>
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202508082105</link>
       <guid isPermaLink="false">urn:krik:audio:1187330</guid>
       <pubDate>Fri, 08 Aug 2025 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/cb/e6/20250808-krik-36524663-20250711083530.mp3" length="27316542" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/cb/e6/20250808-krik-36524663-20250711083530.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -694,7 +694,7 @@ Urednica: Kristina Kegljen</description>
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202508012105</link>
       <guid isPermaLink="false">urn:krik:audio:1187293</guid>
       <pubDate>Fri, 01 Aug 2025 21:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/c5/78/20250801-krik-36524660-20250711081530.mp3" length="32090731" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/c5/78/20250801-krik-36524660-20250711081530.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -973,7 +973,7 @@ Režija: Dražen Krešić, igraju: Zoran Čubrilo, Ivan Simon, Doris Šarić Kuk
       <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202501172205</link>
       <guid isPermaLink="false">urn:krik:audio:1069848</guid>
       <pubDate>Fri, 17 Jan 2025 22:05:00 GMT</pubDate>
-      <enclosure url="https://api.hrt.hr/media/60/cb/20250117-krik-35915105-20241211131045.mp3" length="32358033" type="audio/mpeg" />
+      <enclosure url="https://api.hrt.hr/media/60/cb/20250117-krik-35915105-20241211131045.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
@@ -1075,11 +1075,11 @@ Glume: Rakan Rushaidat, Boris Svrtan, Judita Franković, Šiško Horvat-Majcan, 
       <description>Otac i kći odlaze na put kroz šumu. Probijaju se kroz debele naslage snijega, dok vani vije mećava, a jedini cilj im je stići do udaljene željezničke stanice. Netko ih prati, promatra, slijedi svaki njihov korak i uzdisaj. Nisu sigurni što je ili tko je taj netko, samo znaju da cijeli kraj strepi od onoga što je taj netko ili nešto sposoban učiniti.
 U ovom maestralnom jezovitom trileru, Filip Rutić nudi nam uvid u najiskonskiji strah od kojeg ljudska duša može strepiti. Zvučnim trasiranjem neizvjesnosti i tjeskobe, Silva Ćapin režijski pred slušatelja donosi najnapetije minute, kreirajući atmosferu tame i igre sa živcima.
 Režija: Silva Ćapin, igraju: Amanda Prenkaj, Franjo Dijak, Rada Mrkšić i Samir Vujčić, skladatelj: Damir Šimunović, tonmajstorica: Katarina Račić, urednica: Kristina Kegljen</description>
-      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?podcast=202605292150</link>
+      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202411012205</link>
       <guid isPermaLink="false">urn:krik:audio:1040217</guid>
       <pubDate>Fri, 01 Nov 2024 22:05:00 GMT</pubDate>
       <enclosure url="https://api.hrt.hr/media/f8/19/20241101-krik-35716628-20241021075518.mp3" length="27676805" type="audio/mpeg" />
-      <itunes:image href="https://api.hrt.hr/media/77/47/krik-krimi-petak-na-prvom-1-20220802121750.webp" />
+      <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
       <title>Dina Vukelić: JOŠ JEDNA KRIMINALNA LJUBAV</title>

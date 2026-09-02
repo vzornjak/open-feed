@@ -1,3 +1,3 @@
-# krik-feed
+# osobni-feed
 
 Neslužbeni osobni RSS.

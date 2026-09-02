@@ -1,10 +1,11 @@
-name: Osvježi KRIK RSS
+name: Osvježi osobne RSS feedove
 
 on:
   workflow_dispatch:
   push:
     paths:
       - "generate_feed.py"
+      - "feeds.json"
       - "test_generate_feed.py"
       - ".github/workflows/update-feed.yml"
   schedule:
@@ -14,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: krik-rss-update
+  group: osobni-feed-update
   cancel-in-progress: false
 
 jobs:
@@ -32,12 +33,12 @@ jobs:
         run: python generate_feed.py
       - name: Spremi promjene
         run: |
-          if git diff --quiet -- krik.xml data/audio_lengths.json; then
+          if [ -z "$(git status --porcelain -- '*.xml' data/)" ]; then
             echo "Nema novih emisija."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add krik.xml data/audio_lengths.json
-          git commit -m "Automatski osvježi KRIK RSS"
+          git add -- '*.xml' data/
+          git commit -m "Automatski osvježi osobne RSS feedove"
           git push
