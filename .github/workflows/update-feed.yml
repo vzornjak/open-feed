@@ -2,6 +2,11 @@ name: Osvježi KRIK RSS
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "generate_feed.py"
+      - "test_generate_feed.py"
+      - ".github/workflows/update-feed.yml"
   schedule:
     - cron: "17 */6 * * *"
 
