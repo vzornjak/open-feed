@@ -23,14 +23,14 @@ class FeedTests(unittest.TestCase):
         self.assertEqual(len(merged), 1)
         self.assertEqual(merged[0].title, "Pravi naslov")
         self.assertEqual(merged[0].length, 123)
-        self.assertEqual(merged[0].guid, "urn:osobni-feed:audio:42")
+        self.assertEqual(merged[0].guid, "urn:open-feed:audio:42")
 
     def test_feed_has_valid_enclosure_and_stable_guid(self):
         episode = Episode("Naslov", "Opis", "https://api.hrt.hr/a.mp3", dt.datetime(2026, 1, 1, tzinfo=UTC), audio_id="42", length=123)
         root = ET.fromstring(build_rss([episode], "https://example.test/primjer.xml", self.show))
         item = root.find("./channel/item")
         self.assertIsNotNone(item)
-        self.assertEqual(item.findtext("guid"), "urn:osobni-feed:audio:42")
+        self.assertEqual(item.findtext("guid"), "urn:open-feed:audio:42")
         self.assertEqual(item.find("enclosure").get("length"), "123")
         self.assertEqual(item.findtext("description"), "Opis")
         self.assertEqual(root.findtext("./channel/title"), "Primjer emisije")

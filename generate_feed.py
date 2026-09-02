@@ -22,10 +22,10 @@ from typing import Iterable
 
 
 DEFAULT_CONFIG = Path("feeds.json")
-DEFAULT_BASE_URL = "https://raw.githubusercontent.com/vzornjak/osobni-feed/main"
+DEFAULT_BASE_URL = "https://raw.githubusercontent.com/vzornjak/open-feed/main"
 PAGE_SIZE = 10
 MAX_PAGES = 100
-USER_AGENT = "osobni-feed/1.0"
+USER_AGENT = "open-feed/1.0"
 
 NS_ATOM = "http://www.w3.org/2005/Atom"
 NS_ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
@@ -52,7 +52,7 @@ class Show:
 
     @property
     def guid_prefix(self) -> str:
-        return self.legacy_guid_prefix or f"urn:osobni-feed:{self.slug}:audio"
+        return self.legacy_guid_prefix or f"urn:open-feed:{self.slug}:audio"
 
 
 @dataclass
@@ -66,7 +66,7 @@ class Episode:
     page_url: str = ""
     image_url: str = ""
     source: str = "EMISIJE"
-    guid_prefix: str = "urn:osobni-feed:audio"
+    guid_prefix: str = "urn:open-feed:audio"
 
     @property
     def key(self) -> str:
@@ -312,7 +312,7 @@ def build_rss(episodes: list[Episode], self_url: str, show: Show) -> bytes:
     add_text(channel, "link", self_url)
     add_text(channel, "description", "Neslužbeni osobni RSS.")
     add_text(channel, "language", "hr-hr")
-    add_text(channel, "generator", "osobni-feed")
+    add_text(channel, "generator", "open-feed")
     add_text(channel, f"{{{NS_ITUNES}}}author", show.title)
     add_text(channel, f"{{{NS_ITUNES}}}explicit", "false")
     channel_image = show.image_url or next((episode.image_url for episode in episodes if episode.image_url), "")

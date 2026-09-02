@@ -1,4 +1,4 @@
-name: Osvježi osobne RSS feedove
+name: Osvježi open-feed
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: osobni-feed-update
+  group: open-feed-update
   cancel-in-progress: false
 
 jobs:
@@ -40,5 +40,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -- '*.xml' data/
-          git commit -m "Automatski osvježi osobne RSS feedove"
+          git commit -m "Automatski osvježi open-feed"
           git push
