@@ -309,6 +309,9 @@ def build_rss(episodes: list[Episode], self_url: str) -> bytes:
     for episode in episodes:
         item = ET.SubElement(channel, "item")
         add_text(item, "title", episode.title)
+        description = "\n".join(line.strip() for line in episode.description.splitlines() if line.strip())
+        if description:
+            add_text(item, "description", description)
         add_text(item, "link", episode.page_url)
         add_text(item, "guid", episode.guid, {"isPermaLink": "false"})
         add_text(item, "pubDate", email.utils.format_datetime(episode.published, usegmt=True))
@@ -324,10 +327,11 @@ def main() -> int:
     parser.add_argument("--cache", type=Path, default=Path("data/audio_lengths.json"))
     parser.add_argument("--self-url", default=os.environ.get("FEED_URL", DEFAULT_SELF_URL))
     parser.add_argument("--skip-lengths", action="store_true", help="Ne provjerava veličinu novih MP3 datoteka")
+    parser.add_argument("--full", action="store_true", help="Ponovno izradi cijelu arhivu")
     args = parser.parse_args()
 
     existing = load_existing_feed(args.output)
-    if existing:
+    if existing and not args.full:
         mode = "NOVO"
         official: list[Episode] = []
         emissions = fetch_api_latest("getEpisodes", "lastAvailableEpisodes", "EMISIJE")
