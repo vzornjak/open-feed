@@ -15,7 +15,16 @@
       <title>Dokumentarna radio drama</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/dokumentarna-radio-drama.xml</link>
     </image>
-    <lastBuildDate>Wed, 02 Sep 2026 16:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 16:00:00 GMT</lastBuildDate>
+    <item>
+      <title>ČUVAR LOGORA</title>
+      <description>Dokumentarna radiodrama je osobita radijska emisija, u svijetu poznatija kao radio feature, koja nastoji bilježiti vrijeme i stvarnost u kojoj živimo obraćajući pri tom naročitu pozornost na zvuk i strukturu donošenja priče.</description>
+      <link>https://radio.hrt.hr/slusaonica/dokumentarna-radio-drama?epizoda=202609091600</link>
+      <guid isPermaLink="false">urn:open-feed:dokumentarna-radio-drama:audio:1373372</guid>
+      <pubDate>Wed, 09 Sep 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/fd/22/20260909-dokumentarna-radio-drama-37605778-20260629103105.mp3" length="32687622" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/9f/15/image00071-20211204145356.webp" />
+    </item>
     <item>
       <title>LEON I KATA</title>
       <description>Dokumentarna radio drama "Leon i Kata" prikazuje odnos između Leona (25) i Katice (44). Leon se stjecajem životnih neprilika našao na ulici te živi zahvaljujući socijalnoj pomoći i skupljajući boce po smeću. Katica ima dvoje djece iz prošlog braka te živi u teškim materijalnim neprilikama. Priča prati Leona i Katicu u trenucima kada govore o svojoj vezi kao i o razlozima njihovog razlaza. Leonova najveća želja je da pronađe stan i stalan smještaj kako više ne bi bio prisiljen spavati po napuštenim barakama. Također, Leon nastoji dokazati da može živjeti kao "normalan čovjek" kako bi ponovno stekao naklonost Katice i njezine djece sa kojima želi ponovno živjeti. Na 60. međunarodnom festivalu "PRIX ITALIA", jednom od dva najveća radijska festivala u svijetu koji je od 14. do 20. rujna 2008. održan u Cagliariu emisija Dramskog programa Hrvatskog radija osvojila je prvu nagradu: - u kategoriji dokumentarne radio-drame "LEON I KATA" autora NIKICE KLOBUČARA, te urednika LJUBE PAUZINA.</description>
