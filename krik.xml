@@ -15,7 +15,18 @@
       <title>KRIK – Krimi petak na Prvom</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/krik.xml</link>
     </image>
-    <lastBuildDate>Fri, 11 Sep 2026 21:05:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 21:05:00 GMT</lastBuildDate>
+    <item>
+      <title>NIŠTA NALIK SREĆI</title>
+      <description>Mate je na sebe preuzeo krivnju za ubojstvo policajca i tako spasio ostale članove mladenačke klape višegodišnjega robijanja. Međutim, kada mu pod nerazjašnjenim okolnostima pogine otac, Mate je odlučan istražiti i nekadašnje prijatelje.
+Radio drama nastala prema istoimenome romanu slika stvarnost korumpirane zemlje u kojoj kapital, policija i politika idu ruku pod ruku ne prezajući ni pred čim.
+Redatelj: Mislav Brečić, dramatizacija: Ivana Gudelj, u glavnim ulogama: Alen Šalinović, Antonio Franić, Vedran Mlikota, Marinko Prga i drugi.</description>
+      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202609182105</link>
+      <guid isPermaLink="false">urn:krik:audio:1373432</guid>
+      <pubDate>Fri, 18 Sep 2026 21:05:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/ed/0d/20260918-krik-37692420-20260629113557.mp3" length="27323428" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
+    </item>
     <item>
       <title>Filip Peruzović: ROSENBORG</title>
       <description>Jedan slučajan susret na ulici i poziv na čaj, tužna priča o bolesti i patnji i malo previše sumnjičavosti te puno senilnosti i straha dovest će junake ovoga krimića do tragičnoga svršetka.
@@ -122,7 +133,7 @@ Urednica: Kristina Kegljen</description>
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
-      <title>Filip Rutić: METOD 2. EPIZODA</title>
+      <title>Filip Rutić: METOD, 2.epizoda</title>
       <description>Inspektorica Marta dolazi u malo mjesto istražiti sumnjive nestanke žena, ali nailazi na tromost policijskog sustava te neprijateljski i pomalo korumpiranog kolegu Fabijana koji bi joj trebao biti desna ruka. U toj zabiti u kojoj svi sve poznaju, ali nisu skloni baš govoriti o nesretnim događajima, Marta sklapa prijateljstvo s jednim lokalcem koji joj je od velike pomoći pri istrazi sa svojim informacijama. Kako Marta dolazi do spoznaje da se radi o serijskom ubojici koji otete žene spaljuje u krušnoj peći, tako njezina istraga i sklopljena prijateljstva poprimaju drukčije dimenzije.
 Napeta kriminalistička priča slušatelja drži prikovana za radnju, snažno potkrijepljena atmosferičnom režijom i nadahnutom glumačkom igrom.
 Igrali su: Matija Čigir, Petra Svrtan, Nino Pavleković, Draško Zidar, Doris Šarić Kukuljica, Vini Jurčić, Irena Tereza Prpić, Linda Begonja, Nikola Nedić, Katarina Bistrović Darvaš, Sven Medvešek i Denis Bosak
@@ -130,11 +141,11 @@ Redatelj: Dražen Krešić
 Tonmajstorica: Marija Pečnik Kvesić
 Skladatelj: Maro Market
 Urednica: Kristina Kegljen</description>
-      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202607102105</link>
+      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?podcast=202607102150</link>
       <guid isPermaLink="false">urn:krik:audio:1367421</guid>
       <pubDate>Fri, 10 Jul 2026 21:05:00 GMT</pubDate>
       <enclosure url="https://api.hrt.hr/media/52/aa/20260710-krik-37690686-20260618092010.mp3" length="25292997" type="audio/mpeg" />
-      <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
+      <itunes:image href="https://api.hrt.hr/media/77/47/krik-krimi-petak-na-prvom-1-20220802121750.webp" />
     </item>
     <item>
       <title>Filip Rutić: METOD, 1.epizoda</title>
