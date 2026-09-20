@@ -15,7 +15,16 @@
       <title>Baltazar</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/baltazar.xml</link>
     </image>
-    <lastBuildDate>Sun, 13 Sep 2026 07:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 07:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Okomito i uspravno</title>
+      <description>Tri do pet minuta za rješavanje znanstvenih nedoumica! Znanstvenice iz Baltazargrada objašnjavaju koja je razlika između voća i povrća, zašto dan ima 24 sata, što je eter, kako je nastao Mjesec i još puno toga... Nedjeljom u 9:30 sati.</description>
+      <link>https://radio.hrt.hr/slusaonica/baltazar?epizoda=202609200730</link>
+      <guid isPermaLink="false">urn:open-feed:baltazar:audio:1395205</guid>
+      <pubDate>Sun, 20 Sep 2026 07:30:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/7b/62/20260920-baltazar-10709153-20260808190509.mp3" length="3223367" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/44/0c/baltazar-20211206121946.webp" />
+    </item>
     <item>
       <title>Što su spužve?</title>
       <description>Tri do pet minuta za rješavanje znanstvenih nedoumica! Znanstvenice iz Baltazargrada objašnjavaju koja je razlika između voća i povrća, zašto dan ima 24 sata, što je eter, kako je nastao Mjesec i još puno toga... Nedjeljom u 9:30 sati.</description>
