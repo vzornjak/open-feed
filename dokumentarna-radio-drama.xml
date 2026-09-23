@@ -15,7 +15,16 @@
       <title>Dokumentarna radio drama</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/dokumentarna-radio-drama.xml</link>
     </image>
-    <lastBuildDate>Wed, 16 Sep 2026 16:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 16:00:00 GMT</lastBuildDate>
+    <item>
+      <title>OŽILJCI JADRANA</title>
+      <description>Dokumentarna radiodrama je osobita radijska emisija, u svijetu poznatija kao radio feature, koja nastoji bilježiti vrijeme i stvarnost u kojoj živimo obraćajući pri tom naročitu pozornost na zvuk i strukturu donošenja priče.</description>
+      <link>https://radio.hrt.hr/slusaonica/dokumentarna-radio-drama?epizoda=202609231600</link>
+      <guid isPermaLink="false">urn:open-feed:dokumentarna-radio-drama:audio:1373880</guid>
+      <pubDate>Wed, 23 Sep 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/55/90/20260923-dokumentarna-radio-drama-37692538-20260630074554.mp3" length="27183204" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/9f/15/image00071-20211204145356.webp" />
+    </item>
     <item>
       <title>UZROK SMRTI - GRANICA</title>
       <description>Dokumentarna radiodrama je osobita radijska emisija, u svijetu poznatija kao radio feature, koja nastoji bilježiti vrijeme i stvarnost u kojoj živimo obraćajući pri tom naročitu pozornost na zvuk i strukturu donošenja priče.</description>
