@@ -15,7 +15,16 @@
       <title>Baltazar</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/baltazar.xml</link>
     </image>
-    <lastBuildDate>Sun, 04 Oct 2026 07:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 07:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Primjena stakla (Staklo kao izum)</title>
+      <description>Tri do pet minuta za rješavanje znanstvenih nedoumica! Znanstvenice iz Baltazargrada objašnjavaju koja je razlika između voća i povrća, zašto dan ima 24 sata, što je eter, kako je nastao Mjesec i još puno toga... Nedjeljom u 9:30 sati.</description>
+      <link>https://radio.hrt.hr/slusaonica/baltazar?epizoda=202610110730</link>
+      <guid isPermaLink="false">urn:open-feed:baltazar:audio:1395193</guid>
+      <pubDate>Sun, 11 Oct 2026 07:30:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/64/13/20261011-baltazar-10709161-20260808185508.mp3" length="3500372" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/44/0c/baltazar-20211206121946.webp" />
+    </item>
     <item>
       <title>Partenogeneza</title>
       <description>Tri do pet minuta za rješavanje znanstvenih nedoumica! Znanstvenice iz Baltazargrada objašnjavaju koja je razlika između voća i povrća, zašto dan ima 24 sata, što je eter, kako je nastao Mjesec i još puno toga... Nedjeljom u 9:30 sati.</description>
