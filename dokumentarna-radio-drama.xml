@@ -15,10 +15,19 @@
       <title>Dokumentarna radio drama</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/dokumentarna-radio-drama.xml</link>
     </image>
-    <lastBuildDate>Wed, 30 Sep 2026 16:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 16:00:00 GMT</lastBuildDate>
     <item>
-      <title>KUBA: MORE JE NAŠA ŠUMA I NAŠA NADA</title>
-      <description>Dokumentarna radiodrama je osobita radijska emisija, u svijetu poznatija kao radio feature, koja nastoji bilježiti vrijeme i stvarnost u kojoj živimo obraćajući pri tom naročitu pozornost na zvuk i strukturu donošenja priče.</description>
+      <title>Dražen Krešić: "Skockaj se!"</title>
+      <description>Dokumentarna radio drama „Skockaj se!“ prati Lovru, jednog od članova grupne terapije liječenja ovisnosti od kocke. Radi se o mladom čovjeku, koji je možda na vrijeme počeo rješavati svoj problem. Skockaj se Lovru prati u periodu od pola godine i nastoji vam njegovo iskustvo vjerodostojno prenijeti. Isplati ga se čuti, sjetite se, gdje god i kada god ste se zaustavili, u vašoj je blizini jedan kasino, jedan Lovro. Samo malo bolje pogledajte oko sebe.</description>
+      <link>https://radio.hrt.hr/slusaonica/dokumentarna-radio-drama?epizoda=202610071600</link>
+      <guid isPermaLink="false">urn:open-feed:dokumentarna-radio-drama:audio:1428093</guid>
+      <pubDate>Wed, 07 Oct 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/c4/b0/20261007-dokumentarna-radio-drama-37989358-20261013075535.mp3" length="34272028" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/9f/15/image00071-20211204145356.webp" />
+    </item>
+    <item>
+      <title>Barbara Matejčić: "Kuba: More je naša šuma i naša nada"</title>
+      <description>Autorica Barbara Matejčić donosi uzbudljivu priču o današnjoj Kubi i njezinim stanovnicima. Za razliku od lijepih razglednica s tog otoka koje govore da je to turistički egzotični raj, autorica portretira svakodnevicu ljusdi, njihovo siromaštvo i neimaštinu, težak i za mnoge gotovo nemoguć život pod režimom vladajuće ideologije.</description>
       <link>https://radio.hrt.hr/slusaonica/dokumentarna-radio-drama?epizoda=202609301600</link>
       <guid isPermaLink="false">urn:open-feed:dokumentarna-radio-drama:audio:1373904</guid>
       <pubDate>Wed, 30 Sep 2026 16:00:00 GMT</pubDate>
@@ -26,8 +35,13 @@
       <itunes:image href="https://api.hrt.hr/media/9f/15/image00071-20211204145356.webp" />
     </item>
     <item>
-      <title>OŽILJCI JADRANA</title>
-      <description>Dokumentarna radiodrama je osobita radijska emisija, u svijetu poznatija kao radio feature, koja nastoji bilježiti vrijeme i stvarnost u kojoj živimo obraćajući pri tom naročitu pozornost na zvuk i strukturu donošenja priče.</description>
+      <title>Barbara Matejčić: „Ožiljci Jadrana“</title>
+      <description>Sa skupinom istraživača podmorja autorica obilazi lokacije oko otoka Mljeta na kojima se provjerava stanje posidonije, odnosno, pluća Jadrana te čovjekov utjecaj na prirodu.
+Jadransko more – malo, mirno, toplo. More bogatog života i krhke ravnoteže. More uz čiju dugu istočnu obalu živimo. No upravo zato što je gotovo zatvoren bazen, osjetljivije je od drugih mora. A zato što je pitomo i lijepo, pod stalnim je pritiskom turizma.Ljeti njime jure gliseri, zuje skuteri, prolaze kruzeri i tisuće čartera. Šire se luke, rastu marine, otpadne vode završavaju u moru. Broj plovila sve je veći – veći od kapaciteta njegova prirodnog samočišćenja.Površina je i dalje kristalno prozirna. Ali što se događa ispod nje?
+Radijski dokumentarac „Ožiljci Jadrana“ zaranja ispod površine i otkriva ono što ne vidimo.
+S morskim biolozima odlazimo na najdublju točku južnog Jadrana, gdje se prvi put mjeri koliko je more zapravo glasno. Podmorska buka, odnosno, antropogena buka, ona je koju stvaraju ljudi te itekako utječe na morski svijet. Neke vrste zbog buke gube svoj teritorij, neke mijenjaju navike pokušavajući se prilagoditi, neke prestanu komunicirati s okolinom, neke se više ne pare, neke dobivaju ozlijede, neke umiru. Iako Europska unija kroz Okvirnu direktivu o morskoj strategiji prepoznaje podvodnu buku kao jedan od važnih pokazatelja stanja mora, njezin je utjecaj još uvijek nedovoljno istražen, a zakonska ograničenja gotovo da ne postoje.
+U radijskom dokumentarcu "Ožiljci Jadrana" odlazimo i na Mljet oko kojeg biolozi mjere stanje livada posidonije, koje se naziva plućima Mediterana jer proizvode kisik i čuvaju bioraznolikost podmorja, a brodska sidra ih čupaju i uništavaju.
+Kroz razgovore sa stručnjacima i uz zvukove podmorja, dokumentarac otvara pitanje kako možemo zaštiti krhki ekosustav Jadrana i može li turizam postojati bez uništavanja onoga zbog čega turisti dolaze?</description>
       <link>https://radio.hrt.hr/slusaonica/dokumentarna-radio-drama?epizoda=202609231600</link>
       <guid isPermaLink="false">urn:open-feed:dokumentarna-radio-drama:audio:1373880</guid>
       <pubDate>Wed, 23 Sep 2026 16:00:00 GMT</pubDate>
@@ -35,8 +49,9 @@
       <itunes:image href="https://api.hrt.hr/media/9f/15/image00071-20211204145356.webp" />
     </item>
     <item>
-      <title>UZROK SMRTI - GRANICA</title>
-      <description>Dokumentarna radiodrama je osobita radijska emisija, u svijetu poznatija kao radio feature, koja nastoji bilježiti vrijeme i stvarnost u kojoj živimo obraćajući pri tom naročitu pozornost na zvuk i strukturu donošenja priče.</description>
+      <title>Barbara Matejčić: „Uzrok smrti: granica“</title>
+      <description>Autorica i novinarka Barbara Matejčić istražuje priče o migrantima stradalima na granici između BiH i Hrvatske.
+Radijski dokumentarac nas vodi takozvanom balkanskom rutom, prateći tragove onih koji su usput umrli pokušavajući dobiti zaštitu u Europskoj uniji. Devedesetih su to bili ljudi koji su bježali od ratova u bivšoj Jugoslaviji, danas su to neeuropske izbjeglice. Oko njihove smrti okupila se nevidljiva mreža ljudi koja pokušava učiniti sve ono što bi institucije zapravo trebale raditi. Tako na grobljima u Bosni i Hercegovini i Hrvatskoj susrećemo aktiviste koji traže nestale i umrle, pokušavaju ih identificirati, prenijeti informacije njihovim obiteljima i dostojanstveno obilježiti njihova posljednja počivališta. Upoznajemo i obitelji preminulih koje tuguju tisućama kilometara daleko i krive granični režim "tvrđave Europe".</description>
       <link>https://radio.hrt.hr/slusaonica/dokumentarna-radio-drama?epizoda=202609161600</link>
       <guid isPermaLink="false">urn:open-feed:dokumentarna-radio-drama:audio:1373420</guid>
       <pubDate>Wed, 16 Sep 2026 16:00:00 GMT</pubDate>
@@ -44,8 +59,10 @@
       <itunes:image href="https://api.hrt.hr/media/9f/15/image00071-20211204145356.webp" />
     </item>
     <item>
-      <title>ČUVAR LOGORA</title>
-      <description>Dokumentarna radiodrama je osobita radijska emisija, u svijetu poznatija kao radio feature, koja nastoji bilježiti vrijeme i stvarnost u kojoj živimo obraćajući pri tom naročitu pozornost na zvuk i strukturu donošenja priče.</description>
+      <title>Barbara Matejčić: „Čuvar logora“</title>
+      <description>Esad Landžo živi u Helsinkiju mirnim, povučenim životom. Tome je prethodila presuda Međunarodnog suda za ratne zločine i 10 godina zatvora. Još prije toga je bio rat u Bosni i Hercegovini i logor Čelebići u kojem je bio čuvar. Nadređeni su ga hvalili, a zatvorenici se najviše bojali baš njega.
+Esad Landžo je rijetki pokajnik među mnogima osuđenima za ratne zločine u ratovima u bivšoj Jugoslaviji.
+"Čuvar logora" istražuje ono o čemu se ne govori: autentičnost pokajanja, granice između dobra i zla i pitanje može li se ratni zločin ikada oprostiti – i sebi i drugima. I što se događa u onome tko sluša čovjeka koji je počinio zlo, a što u onome koji pokušava razumjeti odakle to zlo u čovjeku.</description>
       <link>https://radio.hrt.hr/slusaonica/dokumentarna-radio-drama?epizoda=202609091600</link>
       <guid isPermaLink="false">urn:open-feed:dokumentarna-radio-drama:audio:1373372</guid>
       <pubDate>Wed, 09 Sep 2026 16:00:00 GMT</pubDate>
