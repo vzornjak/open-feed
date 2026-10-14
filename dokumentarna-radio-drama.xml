@@ -15,7 +15,16 @@
       <title>Dokumentarna radio drama</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/dokumentarna-radio-drama.xml</link>
     </image>
-    <lastBuildDate>Wed, 07 Oct 2026 16:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 16:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Nestali EP 1 -  Izgubili smo gospodina Kadribašića</title>
+      <description>Dokumentarna radiodrama je osobita radijska emisija, u svijetu poznatija kao radio feature, koja nastoji bilježiti vrijeme i stvarnost u kojoj živimo obraćajući pri tom naročitu pozornost na zvuk i strukturu donošenja priče.</description>
+      <link>https://radio.hrt.hr/slusaonica/dokumentarna-radio-drama?epizoda=202610141600</link>
+      <guid isPermaLink="false">urn:open-feed:dokumentarna-radio-drama:audio:1414595</guid>
+      <pubDate>Wed, 14 Oct 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/c7/37/20261014-dokumentarna-radio-drama-38000411-20260918112050.mp3" length="25153712" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/9f/15/image00071-20211204145356.webp" />
+    </item>
     <item>
       <title>Dražen Krešić: "Skockaj se!"</title>
       <description>Dokumentarna radio drama „Skockaj se!“ prati Lovru, jednog od članova grupne terapije liječenja ovisnosti od kocke. Radi se o mladom čovjeku, koji je možda na vrijeme počeo rješavati svoj problem. Skockaj se Lovru prati u periodu od pola godine i nastoji vam njegovo iskustvo vjerodostojno prenijeti. Isplati ga se čuti, sjetite se, gdje god i kada god ste se zaustavili, u vašoj je blizini jedan kasino, jedan Lovro. Samo malo bolje pogledajte oko sebe.</description>
