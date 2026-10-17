@@ -15,7 +15,16 @@
       <title>KRIK – Krimi petak na Prvom</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/krik.xml</link>
     </image>
-    <lastBuildDate>Fri, 25 Sep 2026 21:55:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 21:05:00 GMT</lastBuildDate>
+    <item>
+      <title>Gdje je Dario Džep</title>
+      <description>Nasilne smrti,  politički kriminal, trgovanje ljudima, maloljetnička prostitucija ili tek dovitljive prijevare i sitne krađe, neobični istražitelji i dobro zapetljane priče koje slušatelja  drže u napetosti do samoga kraja temelj su ciklusa kojega možete slušati petkom od 23 sata na Prvom programu Hrvatskoga radija te na podcastu emisije onda kada to vama odgovara.</description>
+      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202610162105</link>
+      <guid isPermaLink="false">urn:krik:audio:1414434</guid>
+      <pubDate>Fri, 16 Oct 2026 21:05:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/a9/39/20261016-krik-37697890-20260918084100.mp3" length="32351460" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
+    </item>
     <item>
       <title>Vid Lež: DETOX 3. DIO</title>
       <description>Kad se četvero dobrih prijatelja uputi u zagorsku klet na vikend koji su trebali posvetiti odmoru od društvenih mreža i tehnologije, u iskušenje ne dolaze samo njihovi međusobni odnosi, trzavice, zamjeranja i neprihvaćanja, već se krene urušavati i njihovo povjerenje u vlastiti zdravi razum. Zagorje, koliko god naizgled idilično mjesto za bijeg od svakodnevice, u svojim šumarcima i bregima krije nešto puno mračnije i zlokobnije od tek prividnog mraka krošnji.
@@ -112,15 +121,15 @@ Redatelj: Petar Vujačić, glumili su: Tesa Litvan, Dora Dimić Rakar, Rok Juri�
       <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
     </item>
     <item>
-      <title>Dora Golub: MIDNIGHT RADIO: TE MRŠAVE DJEVOJČICE</title>
+      <title>Dora Golub: MIDNIGHT RADIO - TE MRŠAVE DJEVOJČICE</title>
       <description>Slojevita noir radiodrama s elementima horora, prati dvojicu zgubidana, propalih studenata i predstavnika mlade generacije iz prizme radioemisije koja podsjeća na estetiku Zone sumraka. Jedan od njih upušta se u voajerske maštarije o misterioznoj djevojci čiji svaki korak dodatno potiče njegovu imaginaciju i žudnju. Mistični i jezoviti događaji zapleću radnju i odnose dvojice prijatelja, a bezimena se djevojka postavlja kao femme fatale ove noir priče.
 Redatelj: Dario Harjaček; glazbena urednica: tonmajstor: Dalibor Piskrec; skladatelj: Damir Šimunović; dramaturginja na emisiji: Dina Vukelić; urednica: Nives Madunić Barišić.
 Glume: Matija Čigir, Bernard Tomić, Hrvojka Begović i Jelena Miholjević.</description>
-      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202608072105</link>
+      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?podcast=202608070948</link>
       <guid isPermaLink="false">urn:krik:audio:1370182</guid>
       <pubDate>Fri, 07 Aug 2026 09:48:00 GMT</pubDate>
       <enclosure url="https://api.hrt.hr/media/a0/42/20260807-krik-37691478-20260623113037.mp3" length="31775540" type="audio/mpeg" />
-      <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
+      <itunes:image href="https://api.hrt.hr/media/77/47/krik-krimi-petak-na-prvom-1-20220802121750.webp" />
     </item>
     <item>
       <title>Danijel Špelić: ULJEZI</title>
