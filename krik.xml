@@ -15,7 +15,17 @@
       <title>KRIK – Krimi petak na Prvom</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/krik.xml</link>
     </image>
-    <lastBuildDate>Fri, 16 Oct 2026 21:05:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 21:05:00 GMT</lastBuildDate>
+    <item>
+      <title>Beatrica Kurbel: KRVAVA ZABUNA</title>
+      <description>Karlo Zlatar ovaj put istražuje ubojstvo bračnog para, pri čemu je upletena i njegova nova djevojka, a u svemu pomaže i stariji inspektor Tihomir Becić.
+Igraju: Igor Jurinić, Iskra Jirsak, Franjo Kuhar, Ksenija Marinković, Pjer Meničanin, Biserka Ipša, Martina Čvek, Sven Šestak, Toma Medvešek i Martin Kuhar, redatelj: Petar Vujačić, glazbeni urednik: Maro Market,  tonmajstor: Dalibor Piskrec, urednica: Kristina Kegljen</description>
+      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202610232105</link>
+      <guid isPermaLink="false">urn:krik:audio:1414440</guid>
+      <pubDate>Fri, 23 Oct 2026 21:05:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/1c/dc/20261023-krik-37697893-20260918084551.mp3" length="32297937" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
+    </item>
     <item>
       <title>Beatrica Kurbel: GDJE JE DARIO DŽEP?</title>
       <description>U nastavku serijala o mladom inspektoru Karlu Zlataru, ovaj put rješava se slučaj nestalog komičara Darija Džepa iza kojega je ostao prazan i napušten i automobil te gomila upitnika nad glavom.
@@ -115,11 +125,11 @@ Igrali su:  Antonija Stanišić Šperanda, Daria Lorenzi Flatz, Rakan Rushaidat,
       <title>Silva Ćapin: NOĆ U MAGLI</title>
       <description>Mlada djevojka pronađena je pretučena uz zid kuće u kojoj stanuje. Što se dogodilo nakon posjeta noćnom klubu, je li napadač netko poznat i hoće li uopće sve biti prijavljeno policiji poslušajte u ovom krimiću kojega je za radio napisala filmska redateljica Silva Ćapin.
 Redatelj: Petar Vujačić, glumili su: Tesa Litvan, Dora Dimić Rakar, Rok Juričić, Ana Maras Harmander, Alen Šalinović, Jadran Gruišić, Dora Marojević i Ugo Korani.  Tonamajstorica: Marija Pečnik Kvesić, glazbena dramaturginja: Adriana Kramarić</description>
-      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202608142105</link>
+      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?podcast=202608140949</link>
       <guid isPermaLink="false">urn:krik:audio:1370217</guid>
       <pubDate>Fri, 14 Aug 2026 09:49:00 GMT</pubDate>
       <enclosure url="https://api.hrt.hr/media/e6/5b/20260814-krik-37691678-20260623120535.mp3" length="24555569" type="audio/mpeg" />
-      <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
+      <itunes:image href="https://api.hrt.hr/media/77/47/krik-krimi-petak-na-prvom-1-20220802121750.webp" />
     </item>
     <item>
       <title>Dora Golub: MIDNIGHT RADIO - TE MRŠAVE DJEVOJČICE</title>
