@@ -15,7 +15,16 @@
       <title>Baltazar</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/baltazar.xml</link>
     </image>
-    <lastBuildDate>Sun, 18 Oct 2026 07:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 08:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Grafen</title>
+      <description>Tri do pet minuta za rješavanje znanstvenih nedoumica! Znanstvenice iz Baltazargrada objašnjavaju koja je razlika između voća i povrća, zašto dan ima 24 sata, što je eter, kako je nastao Mjesec i još puno toga... Nedjeljom u 9:30 sati.</description>
+      <link>https://radio.hrt.hr/slusaonica/baltazar?epizoda=202610250830</link>
+      <guid isPermaLink="false">urn:open-feed:baltazar:audio:1395213</guid>
+      <pubDate>Sun, 25 Oct 2026 08:30:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/f1/cc/20261025-baltazar-10709163-20260808191015.mp3" length="3448414" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/44/0c/baltazar-20211206121946.webp" />
+    </item>
     <item>
       <title>Kapilarnost</title>
       <description>Tri do pet minuta za rješavanje znanstvenih nedoumica! Znanstvenice iz Baltazargrada objašnjavaju koja je razlika između voća i povrća, zašto dan ima 24 sata, što je eter, kako je nastao Mjesec i još puno toga... Nedjeljom u 9:30 sati.</description>
