@@ -15,7 +15,16 @@
       <title>Dokumentarna radio drama</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/dokumentarna-radio-drama.xml</link>
     </image>
-    <lastBuildDate>Wed, 21 Oct 2026 16:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 17:00:00 GMT</lastBuildDate>
+    <item>
+      <title>NESTALI EP 3 GDJE JE ADNAN NAZIR</title>
+      <description>Dokumentarna radiodrama je osobita radijska emisija, u svijetu poznatija kao radio feature, koja nastoji bilježiti vrijeme i stvarnost u kojoj živimo obraćajući pri tom naročitu pozornost na zvuk i strukturu donošenja priče.</description>
+      <link>https://radio.hrt.hr/slusaonica/dokumentarna-radio-drama?epizoda=202610281700</link>
+      <guid isPermaLink="false">urn:open-feed:dokumentarna-radio-drama:audio:1426146</guid>
+      <pubDate>Wed, 28 Oct 2026 17:00:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/c0/5b/20261028-dokumentarna-radio-drama-38059059-20261009091523.mp3" length="31768028" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/9f/15/image00071-20211204145356.webp" />
+    </item>
     <item>
       <title>Nestali EP 2 - Dvostruki nestanak Lorda Tweexa</title>
       <description>Dokumentarna radiodrama je osobita radijska emisija, u svijetu poznatija kao radio feature, koja nastoji bilježiti vrijeme i stvarnost u kojoj živimo obraćajući pri tom naročitu pozornost na zvuk i strukturu donošenja priče.</description>
