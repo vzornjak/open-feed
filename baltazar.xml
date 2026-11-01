@@ -15,7 +15,16 @@
       <title>Baltazar</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/baltazar.xml</link>
     </image>
-    <lastBuildDate>Sun, 25 Oct 2026 08:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 08:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Svjetlosne diode, tzv. LED-ice</title>
+      <description>Tri do pet minuta za rješavanje znanstvenih nedoumica! Znanstvenice iz Baltazargrada objašnjavaju koja je razlika između voća i povrća, zašto dan ima 24 sata, što je eter, kako je nastao Mjesec i još puno toga... Nedjeljom u 9:30 sati.</description>
+      <link>https://radio.hrt.hr/slusaonica/baltazar?epizoda=202611010830</link>
+      <guid isPermaLink="false">urn:open-feed:baltazar:audio:1395199</guid>
+      <pubDate>Sun, 01 Nov 2026 08:30:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/61/71/20261101-baltazar-10709164-20260808190018.mp3" length="3567041" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/44/0c/baltazar-20211206121946.webp" />
+    </item>
     <item>
       <title>Grafen</title>
       <description>Tri do pet minuta za rješavanje znanstvenih nedoumica! Znanstvenice iz Baltazargrada objašnjavaju koja je razlika između voća i povrća, zašto dan ima 24 sata, što je eter, kako je nastao Mjesec i još puno toga... Nedjeljom u 9:30 sati.</description>
