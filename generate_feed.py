@@ -134,6 +134,20 @@ def episode_from_api(record: dict, source: str, show: Show) -> Episode | None:
     if not published_raw:
         return None
     published = parse_datetime(published_raw)
+    # HRT podcast kanal zna cijeloj grupi epizoda prepisati isti originalPublishedUtc,
+    # a stvarni datum emitiranja ostaje u imenu datoteke (YYYYMMDD-...). Zato za
+    # PODCAST datume uzimamo datum iz imena, a EMISIJE (broadcastStart) ne diramo.
+    if source != "EMISIJE":
+        file_date = re.match(r"(\d{4})(\d{2})(\d{2})-", audio_url.rsplit("/", 1)[-1])
+        if file_date:
+            try:
+                published = published.replace(
+                    year=int(file_date.group(1)),
+                    month=int(file_date.group(2)),
+                    day=int(file_date.group(3)),
+                )
+            except ValueError:
+                pass
     stamp = published.strftime("%Y%m%d%H%M")
     image_metadata = (record.get("thumbnail") or {}).get("metadata") or []
     first_image = image_metadata[0] if image_metadata and isinstance(image_metadata[0], dict) else {}
@@ -267,7 +281,13 @@ def merge_episodes(groups: Iterable[Iterable[Episode]]) -> list[Episode]:
             preferred.image_url = preferred.image_url or other.image_url
             preferred.published = min(preferred.published, other.published)
             merged[episode.key] = preferred
-    return sorted(merged.values(), key=lambda item: (item.published, item.title), reverse=True)
+    episodes = list(merged.values())
+    emission_titles = {e.title.casefold() for e in episodes if e.source == "EMISIJE"}
+    episodes = [
+        e for e in episodes
+        if not (e.source == "PODCAST" and e.title.casefold() in emission_titles)
+    ]
+    return sorted(episodes, key=lambda item: (item.published, item.title), reverse=True)
 
 
 def probe_audio_length(url: str) -> int:
