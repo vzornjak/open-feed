@@ -15,7 +15,16 @@
       <title>Dokumentarna radio drama</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/dokumentarna-radio-drama.xml</link>
     </image>
-    <lastBuildDate>Wed, 28 Oct 2026 17:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 17:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Nestali EP 4 Gdje idu odbjegle djevojke</title>
+      <description>Dokumentarna radiodrama je osobita radijska emisija, u svijetu poznatija kao radio feature, koja nastoji bilježiti vrijeme i stvarnost u kojoj živimo obraćajući pri tom naročitu pozornost na zvuk i strukturu donošenja priče.</description>
+      <link>https://radio.hrt.hr/slusaonica/dokumentarna-radio-drama?epizoda=202611041700</link>
+      <guid isPermaLink="false">urn:open-feed:dokumentarna-radio-drama:audio:1426175</guid>
+      <pubDate>Wed, 04 Nov 2026 17:00:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/96/90/20261104-dokumentarna-radio-drama-38074505-20261009094538.mp3" length="23975267" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/9f/15/image00071-20211204145356.webp" />
+    </item>
     <item>
       <title>Ivana Karačonji Rupčić: „Nestali 3.epizoda- Gdje je Adnan Nazir?</title>
       <description>Ova epizoda dokumentarne serije donosi mučnu i razotkrivajuću priču o nestanku Adnana Nazira, koji je u potrazi za boljim životom krenuo iz Dubaija, preko Albanije pa sve do hrvatske granice, gdje mu se na putu prema bratu Noumanu u Španjolskoj gubi svaki trag. Cijeli slučaj prati iznimno dramatičan trenutak kada skupina s kojom je putovao javlja bratu da su ga zbog naglog pogoršanja zdravstvenog stanja bili prisiljeni ostaviti u Hrvatskoj i nastaviti dalje prema Italiji. Priču rekonstruiramo kroz dirljiv razgovor s bratom Noumanom Nazirom koji ne odustaje od potrage, uz stručne i ljudske uvide novinarke Tamare Opačić koja godinama aktivno pomaže obitelji u nastojanjima da dođe do istine, Abdula Hamida Mustafe i Ivana Kanceljaka iz Crvenog križa koji svjedoče o terenskom radu i izazovima potrage za nestalima na migrantskim rutama, te Marijane Hameršak s Instituta za etnologiju i folkloristiku koja pruža dublji stručni analitički uvid u širi kontekst i dinamiku migrantskih kretanja, ali i pojedinosti iz potrage za Nazirom.</description>
