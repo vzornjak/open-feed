@@ -15,7 +15,16 @@
       <title>KRIK – Krimi petak na Prvom</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/krik.xml</link>
     </image>
-    <lastBuildDate>Fri, 30 Oct 2026 21:55:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 22:05:00 GMT</lastBuildDate>
+    <item>
+      <title>Crvena voda 1</title>
+      <description>Nasilne smrti,  politički kriminal, trgovanje ljudima, maloljetnička prostitucija ili tek dovitljive prijevare i sitne krađe, neobični istražitelji i dobro zapetljane priče koje slušatelja  drže u napetosti do samoga kraja temelj su ciklusa kojega možete slušati petkom od 23 sata na Prvom programu Hrvatskoga radija te na podcastu emisije onda kada to vama odgovara.</description>
+      <link>https://radio.hrt.hr/slusaonica/krik-krimi-petak-na-prvom?epizoda=202611062205</link>
+      <guid isPermaLink="false">urn:krik:audio:1440064</guid>
+      <pubDate>Fri, 06 Nov 2026 22:05:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/87/bd/20261106-krik-38141030-20261103090028.mp3" length="28130342" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/eb/a6/krik-krimi-petak-na-prvom-20220802121653.webp" />
+    </item>
     <item>
       <title>Beatrica Kurbel: SPAVAŠ LI MIRNO?</title>
       <description>Inspektor Karlo Zlatar uz pomoć tajnice Maje istražuje slučaj davnog nestanka mlade Tee Račić, a dubljim poniranjem u slučaj razotkriva slučaj krajnje disfunkcionalne obitelji.
