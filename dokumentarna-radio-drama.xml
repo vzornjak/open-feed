@@ -15,7 +15,16 @@
       <title>Dokumentarna radio drama</title>
       <link>https://raw.githubusercontent.com/vzornjak/open-feed/main/dokumentarna-radio-drama.xml</link>
     </image>
-    <lastBuildDate>Wed, 18 Nov 2026 17:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 17:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Nikica Klobučar: „Tko se još sjeća Pirga? – životna priča Anđelke Martić“</title>
+      <description>Dokumentarna radio drama „Tko se još sjeća Pirga?“ portret je hrvatske književnice i sudionice NOB-a Anđelke Martić. Nekada omiljena dječja spisateljica za svoj književni rad dobila je mnoga priznanja i nagrade, a njezino najpoznatije djelo, kratki roman Pirgo, priča o prijateljstvu dječaka i laneta u danima Drugog svjetskog rata, do 1991. godine bio je obvezatna školska lektira u svim državama bivše Jugoslavije. Sjećajući se događaja koji su obilježili njezin život (ali i živote mnogih drugih) Anđelka Martić pripovijeda o vlastitom odrastanju, susretu s kraljem Aleksandrom, odnosu sa starijim bratom, odlasku u partizane i sudjelovanju u Drugom svjetskom ratu te književnom i uredničkom radu.</description>
+      <link>https://radio.hrt.hr/slusaonica/dokumentarna-radio-drama?epizoda=202611251700</link>
+      <guid isPermaLink="false">urn:open-feed:dokumentarna-radio-drama:audio:1426152</guid>
+      <pubDate>Wed, 25 Nov 2026 17:00:00 GMT</pubDate>
+      <enclosure url="https://api.hrt.hr/media/ce/48/20261125-dokumentarna-radio-drama-38074170-20261009092101.mp3" length="42853549" type="audio/mpeg" />
+      <itunes:image href="https://api.hrt.hr/media/9f/15/image00071-20211204145356.webp" />
+    </item>
     <item>
       <title>Ivana Karačonji Rupčić: „Nestali – 6. epizoda – Domovinski rat: Posljednji put viđeni '91.“</title>
       <description>Ova epizoda dokumentarne serije donosi dirljivu i potresnu priču o nestalima u Domovinskom ratu, prateći osobne sudbine i neumornu borbu obitelji koje već desetljećima žive u teškoj neizvjesnosti. Kroz intimna i emotivna svjedočanstva Veronike Soldo iz Udruge djece poginulih i nestalih hrvatskih branitelja te Jelice Marošičević, epizoda razotkriva duboku obiteljsku traumu, tugu i trajna sjećanja na najmilije. Svoju potresnu osobnu priču dijeli i Ljiljana Alvir, predsjednica Saveza udruga obitelji zatočenih i nestalih hrvatskih branitelja, koja uz vlastitu obiteljsku tragediju pruža i širi uvid u ustrajnu borbu civilnog društva za pronalazak svih nestalih. Posjećujemo i Mjesto sjećanja, muzej unutar Nacionalne memorijalne bolnice „Dr.Juraj Njavro“ gdje razgovaramo s Anom Krajinić. A o institucionalnim naporima, sustavnim terenskim pretragama te kompleksnim procesima ekshumacije i identifikacije u epizodi govori Ana Filko iz Uprave za zatočene i nestale Ministarstva hrvatskih branitelja, naglašavajući važnost zajedničke ustrajnosti kako bi svaka žrtva konačno pronašla svoj mir, a obitelji priželjkivani rasplet.</description>
